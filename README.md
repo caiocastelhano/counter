@@ -1,19 +1,16 @@
-# Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
+# Contador 🧮
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+Este é um projeto simples de contador criado durante o curso de JavaScript da [Scrimba](https://scrimba.com/).
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+O objetivo é reforçar conceitos fundamentais de JavaScript, como manipulação do DOM, funções, eventos e variáveis.
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+## ✨ Funcionalidades
 
-Happy Coding!
+- Incrementa a contagem ao clicar no botão **"ADICIONAR"**
+- Salva o valor atual da contagem com **"SALVAR"**
+- Exibe um histórico das contagens salvas
+- Zera automaticamente o contador após salvar
+
+## 👨‍💻 Desenvolvedor
+
+Feito por **Caio Castelhano**
