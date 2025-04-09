@@ -4,15 +4,20 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, 'Georgia', monospace;
     text-align: center;
     height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .container {
     background: white;
     max-width: 80%;
-    margin: auto;
+    padding: 20px;
     border: 3px solid black;
     border-radius: 10px;
-    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
@@ -28,20 +33,35 @@ h2 {
 
 button {
     border: none;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px 0;
     color: white;
     font-weight: bold;
     width: 200px;
-    margin-bottom: 5px;
+    margin: 5px auto;
     border-radius: 5px;
+    display: block;
+    cursor: pointer;
+    transition: background 0.3s ease;
 }
 
 #increment-btn {
     background: red;
 }
 
+#increment-btn:hover {
+    background: darkred;
+}
+
 #save-btn {
     background: green;
 }
 
+#save-btn:hover {
+    background: darkgreen;
+}
+
+#save-el {
+    margin-top: 15px;
+    font-size: 0.9rem;
+    color: #333;
+}
